@@ -1,0 +1,17 @@
+/*Selector de tipo .class*/
+
+label {
+    color: red;
+
+    /*Esta unidad (em) de medida es porcentual al tamano por defecto aplicado a las fuentes*/
+    font-size: 1em;
+}
+
+
+h3 {
+    color: blue;
+
+    /*Esta unidad (em) de medida es porcentual al tamano por defecto aplicado a las fuentes*/
+    font-size: 1em;
+}
+
