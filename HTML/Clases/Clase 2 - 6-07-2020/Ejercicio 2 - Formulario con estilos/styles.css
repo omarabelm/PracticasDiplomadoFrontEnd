@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+
+}
+
+
+main {
+    background-image: url(images/bg-principal.jpg);
+    filter: grayscale(100%);
+    background-position: 50% 50%;
+    height: 100vh;
+}
