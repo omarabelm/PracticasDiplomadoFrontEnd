@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 body {
     margin: 0;
-
+    font-family: 'Roboto', sans-serif;
 }
-
 
 main {
     background-image: url(images/bg-principal.jpg);
@@ -10,3 +11,10 @@ main {
     background-position: 50% 50%;
     height: 100vh;
 }
+
+.titulo {
+    color: white;
+    text-transform: uppercase;
+}
+
+.contenedor
