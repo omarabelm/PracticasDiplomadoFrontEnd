@@ -1,0 +1,113 @@
+:root{
+    --color1: #ffffff;
+    --color2: #000000;
+    --color3: #F0F3F5;
+    --color4: #9c9999;
+    --color5: #0000ff;
+    --color6: #808080;
+    --color7: #008000;
+
+    --fuente1: "Raleway", sans-serif;
+    --fuente2: "Quicksand", sans-serif;
+}
+
+
+
+body {font-family: var(--fuente1);}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--color6);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--color2);
+}
+
+.main-color {
+    color: var(--color5);
+}
+
+.main-color > * {
+    color: var(--color5);
+}
+
+
+.shadow {
+    box-shadow: rgba(22,22,22,.5) 0 3px 3px;
+}
+
+.scroll {
+    overflow: auto;
+    
+ }
+
+.bg-1 { 
+    background-color: var(--color5);
+    height: 50vh;
+}
+
+.bg-1 { 
+    background-color: var(--color5);
+    height: 50vh;
+}
+
+.lista-tareas {
+    position: absolute;
+    width: 70%;
+    top: 5vh;
+    left: 15%;
+    background-color: var(--color1);
+    border-radius: 11px;
+    box-shadow: rgba(22,22,22,.5) 0 3px 3px;
+
+}
+
+.lista-tareas-titulo > h3{
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+/*Contenido de Formulario*/
+.seccionListar {
+min-height: 40vh;
+}
+
+.sin-tareas {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/undraw_task_list_6x9d.svg");
+    background-size: 50% 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+
+
+.todas { 
+    background-color:var(--color6) !important;
+}
+
+.completas {
+    background-color: var(--color6) !important;
+
+}
+
+
+
+i{
+    color: var(--color4);
+    cursor: pointer;
+    font-size: 1.75rem;
+}
